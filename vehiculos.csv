@@ -1,4 +1,4 @@
-<class '__main__.Particular'>,"{'brand': 'Ford', 'model': 'Fiesta', 'num_wheels': 4, 'speed': 180, 'displacement': 500, 'seats': 5}"
-<class '__main__.Carga'>,"{'brand': 'Daft Trucks', 'model': 'G 38', 'num_wheels': 10, 'speed': 120, 'displacement': 1000, 'load_weight': 20000}"
-<class '__main__.Bicycle'>,"{'brand': 'Shimano', 'model': 'MT Ranger', 'num_wheels': 2, 'bike_type': 'Carrera'}"
-<class '__main__.Motorcycle'>,"{'brand': 'BMW', 'model': 'F800s', 'num_wheels': 2, 'bike_type': 'Deportiva', 'engine': '2T', 'frame': 'Doble Viga', 'num_spokes': 21}"
+<class '__main__.Particular'>,"{'marca': 'Ford', 'modelo': 'Fiesta', 'numero_ruedas': 4, 'velocidad': 180, 'cilindrada': 500, 'asientos': 5}"
+<class '__main__.Carga'>,"{'marca': 'Daft Trucks', 'modelo': 'G 38', 'numero_ruedas': 10, 'velocidad': 120, 'cilindrada': 1000, 'kg_carga': 20000}"
+<class '__main__.Bicycle'>,"{'marca': 'Shimano', 'modelo': 'MT Ranger', 'numero_ruedas': 2, 'tipo_bicicleta': 'Carrera'}"
+<class '__main__.Motorcycle'>,"{'marca': 'BMW', 'modelo': 'F800s', 'numero_ruedas': 2, 'tipo_bicicleta': 'Deportiva', 'motor': '2T', 'cuadro': 'Doble Viga', 'numero_radios': 21}"
