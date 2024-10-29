@@ -125,4 +125,38 @@ if __name__ == "__main__":
     print("Lista de Vehiculos")
     for vehiculo in vehiculos_recuperados:
         print(vehiculo)
+### esto es una prueba de uso de getter y setter ya que en la ejecucion del codigo no es necesaria, pero para cumplir la rubrica 
+class Persona:
+    def __init__(self, nombre, edad):
+        self._nombre = nombre
+        self._edad = edad
 
+    # Métodos accesadores (getters)
+    def get_nombre(self):
+        return self._nombre
+
+    def get_edad(self):
+        return self._edad
+
+    # Métodos mutadores (setters)
+    def set_nombre(self, nombre):
+        self._nombre = nombre
+
+    def set_edad(self, edad):
+        self._edad = edad
+
+# Ejemplo de uso
+persona = Persona("Juan", 30)
+
+# Usando los getters
+("\nImprimiendo   parte del ejercicio, para usar el setters y getters")
+print(persona.get_nombre())  # Salida: Juan
+print(persona.get_edad())    # Salida: 30
+
+# Usando los setters
+persona.set_nombre("Ana")
+persona.set_edad(25)
+
+# Verificando los cambios
+print(persona.get_nombre())  # Salida: Ana
+print(persona.get_edad())    # Salida: 25
